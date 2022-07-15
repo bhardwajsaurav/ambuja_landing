@@ -337,23 +337,39 @@ form button {
 }
 
 
-@media (max-width:1488px) {
+@media (max-width:1530px) {
     .footer-top-1 h1 {
         font-size: 26px;
+    }
+
+    .footer{
+
+    bottom: -102px;
+
     }
 
   
 }
 
 @media (max-width:1398px) {
-    .footer-top-2 ul li {
-     
-        padding: 13px 35px;
-    }
+  
 
     .modal {
         width: 44%;
-    }    
+    }  
+    
+    
+.footer-top-1 h1 {
+    font-size: 23px;
+  }
+  
+  .mt-5 {
+    margin-top: 4px;
+  }
+    
+    
+
+
 }
 
 
@@ -366,6 +382,10 @@ form button {
     .footer-top-1 h1 {
         font-size: 24px;
     }
+
+    .footer-top-1 h1 {
+        font-size: 21px;
+    }
 }
 
 
@@ -374,5 +394,55 @@ form button {
     .modal {
         width: 51%;
     }
+    .footer-top-1 {
+
+        width: 30%;
+    }
     
+}
+
+
+@media (max-width:1155px) {
+    .top-footer {
+       
+        flex-wrap: wrap;
+    } 
+    .footer {
+        
+        bottom: -87px;
+    }
+
+    .top-footer {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+@media (max-width:1092px) {
+    .footer-top-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    .bottom-footer {
+      
+        margin-bottom: 14px;
+    }
+
+    .bottom-footer ul {
+        font-size: 13px;
+    }   
+    .footer {
+        bottom: -185px;
+    } 
+
+    .text-form h3 {
+        font-size: 15px;
+    }
+    .text-form h1 {
+        font-size: 23px;
+    }
 }

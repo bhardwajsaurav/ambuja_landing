@@ -129,3 +129,30 @@ h1 .counter > span.to.top {
   }
 
 }
+
+
+
+
+@media (max-width:1400px) {
+  h1 .counter > span {
+   
+    width: 32px;
+}
+
+h1 .counter {
+
+  width: 50px;
+}
+
+
+}
+
+
+@media (max-width:1270px) {
+  h1 .counter {
+    width: 37px;
+}
+h1 .counter > span {
+  width: 21px;
+}
+}
