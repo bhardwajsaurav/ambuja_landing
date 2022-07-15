@@ -386,6 +386,10 @@ form button {
     .footer-top-1 h1 {
         font-size: 21px;
     }
+
+    .bubble-image img {
+        width: 40%;
+    }
 }
 
 
