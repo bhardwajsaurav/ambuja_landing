@@ -337,6 +337,15 @@ form button {
 }
 
 
+@media (max-width:1550px) {
+    
+    .footer{
+
+    bottom: -147px;
+
+    }
+}
+
 @media (max-width:1530px) {
     .footer-top-1 h1 {
         font-size: 26px;
