@@ -11,7 +11,6 @@
 
 
 
-
 .landing{
     overflow: hidden;
     width: 100%;
@@ -302,7 +301,7 @@ form button {
 .activeB{
 
     position: absolute;
-    left: -412px;
+    left: 53px;
     right: 0;
     margin: auto;
     text-align: center;
@@ -316,13 +315,18 @@ form button {
 
 }
 
-@media (max-width:1600px) {
+
+@media (max-width:1700px) {
+ .modal{   
+    min-height: 57%;
+}
+}
+
+@media (max-width:1650px) {
     .bottom-footer ul{
         font-size: 20px;
     }
-    .footer{
-        min-height: 345px;
-    }
+    
     .modal-left {
        
         width: 76%;
@@ -339,28 +343,30 @@ form button {
 
 @media (max-width:1550px) {
     
-    .footer{
+   
 
-      
-            bottom: 13px;
-        
-
+    .modal {
+        min-height: 16%;
     }
-}
 
-@media (max-width:1530px) {
     .footer-top-1 h1 {
         font-size: 26px;
     }
 
-    .footer{
-
-    bottom: -102px;
-
+    .footer {
+        bottom: -175px;
     }
 
-  
+   .modal-main{
+        min-height: 123vh;
+    }
+
+    
+
+
 }
+
+
 
 @media (max-width:1398px) {
   
@@ -429,6 +435,10 @@ form button {
 
     .top-footer {
         flex-wrap: wrap;
+    }
+
+    .modal-main {
+        min-height: 111vh;
     }
 }
 

@@ -30,12 +30,12 @@ function test() {
      },2000)
 
 
-     setTimeout(()=>{
-        document.getElementById("bubbleDIV").style.opacity = "0"
-        document.getElementById("bubbleDIV").style.pointerEvents  = "none";
-        document.getElementById("modal-main").style.pointerEvents  = "none";
+    //  setTimeout(()=>{
+    //     document.getElementById("bubbleDIV").style.opacity = "0"
+    //     document.getElementById("bubbleDIV").style.pointerEvents  = "none";
+    //     document.getElementById("modal-main").style.pointerEvents  = "none";
         
-     },3000)
+    //  },3000)
  }
 
 
